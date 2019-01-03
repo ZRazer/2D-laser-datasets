@@ -1,12 +1,20 @@
 # 2D-laser-datasets
 
-python scripts
+# remove specific transform/topic
 
-usage: python tf_filter.py input.bag output.bag
+python scripts: tf_filter.py(Retain the specified transform)
 
+         usage: python tf_filter.py input.bag output.bag
+         
+build-in functions(remove transform map):
 
+         usage: rosrun bag_tools remove_tf.py -i input.bag -o output.bag -f map
+         
+build-in functions(Retain the specified topic):
+         
+         rosbag filter input.bag output.bag 'topic == "/scan" or topic == "/tf" or topic == "/imu" or topic == "/odom"'
 
-self-recorded datasets:
+# self-recorded datasets:
 
 floor1.bag  floor3.bag || lidar:Rplidar A3(There are many measurement noises)
 
@@ -14,7 +22,7 @@ gyy_floor3.bag || lidar：Ydlidar G4（Maybe... I have forgotten） Odometery is
 
          author = {Richard Zander},
 
-malaga dataset:
+# malaga dataset:
 
 malaga.bag  || lidar:SICK
 
