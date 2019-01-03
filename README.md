@@ -4,7 +4,8 @@
 
 self-recorded datasets:
 
-floor1.bag  floor3.bag || lidar:Rplidar A3
+floor1.bag  floor3.bag || lidar:Rplidar A3(There are many measurement noises)
+gyy_floor3.bag || lidar：Ydlidar（Maybe... I have forgotten）
 
          author = {Richard Zander},
 
