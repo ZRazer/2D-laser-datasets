@@ -1,11 +1,16 @@
 # 2D-laser-datasets
 
+python scripts
+
+usage: python tf_filter.py input.bag output.bag
+
 
 
 self-recorded datasets:
 
 floor1.bag  floor3.bag || lidar:Rplidar A3(There are many measurement noises)
-gyy_floor3.bag || lidar：Ydlidar（Maybe... I have forgotten）
+
+gyy_floor3.bag || lidar：Ydlidar G4（Maybe... I have forgotten） Odometery is bad.
 
          author = {Richard Zander},
 
